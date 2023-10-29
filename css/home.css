@@ -1,0 +1,240 @@
+header{
+    width: 100%;
+    height: 60px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.header-content{
+    color: rgb(78, 78, 78);
+    margin-left: 10px;
+    margin-right: 10px;
+    /* gap: 10px; */
+    cursor: pointer;
+    font-size: 0.8rem;   
+}
+.header-content:last-child{
+    padding: 8px;
+    margin-right: 15px;
+    margin-left: 5px;
+    color: white;
+    background-color: rgb(13, 137, 214);
+    border-radius: 15%;
+}
+.header-content:nth-child(3){
+    padding: 10px;
+    font-size: 120%;
+    color: rgb(102, 100, 100);
+}
+.header-content:nth-child(3):hover{
+   background-color: rgb(235, 230, 230); 
+   border-radius: 50%;
+   
+}
+.header-content title{
+    background-color: red;
+    
+}
+.header-content:first-child:hover{
+    border-bottom: 1px solid black;
+}
+.header-content:nth-child(2):hover{
+    border-bottom: 1px solid black;
+
+}
+
+main{
+    height:calc(100vh - 161px);
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+#main-centert{
+    width: 600px;
+    height: 100%;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+   
+}
+img{
+margin-top:5px;
+}
+#search_box{
+    margin-top: 25px;
+    width: 580px;
+    height: 48px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 30px;
+    border-radius: 30px;
+    border: 0.2px solid rgb(216, 215, 215);
+    /* box-shadow:black */
+    
+
+    
+    
+}
+ #search_box:hover{
+    box-shadow: 1px 1px 2px 2px rgb(233, 231, 231);
+}
+#main-centert #search_box:first-child{
+    color: rgb(226, 117, 8);
+}
+#search_box img{
+    height: 23px;
+    width: 23px;
+    margin-bottom: 0%;
+    margin-top: 0;
+    margin-left: 5px;
+    margin-right: 15px;
+}
+
+#search_box input{
+    height: 40px;
+    width: 500px;
+    border-left: 5px;
+    border-color:transparent;
+    border: none;
+    outline: none;
+}
+#search_box ion-icon{
+    color: rgb(161, 158, 158);
+    font-size: 1.2rem;
+    padding: 15px;
+}
+#last-box{
+    color: rgb(126, 123, 123);
+    width: 300px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.button-class{
+    font-size: 0.9rem;
+    color: rgb(66, 65, 65);
+    background-color:rgb(241, 241, 250);
+    border-color:transparent;
+    margin-bottom: 15px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: Arial;
+    border: none;
+
+}
+button:hover{
+    background-color:rgb(245, 241, 241);
+    border-color:rgb(187, 185, 185);
+    border: none;
+    box-shadow: 1px 1px 2px 2px rgb(233, 231, 231);
+
+}
+#sinhala{
+    color: rgb(86, 86, 240);
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bold;
+    
+}
+#sinhala:hover{
+    border-bottom: 1px solid rgb(46, 46, 233);
+}
+#tamil{
+    color: rgb(90, 90, 238);
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bold;
+    
+}
+#tamil:hover{
+    border-bottom: 1px solid rgb(27, 27, 173);
+}
+#google-offer{
+    font-size: 0.8rem;
+}
+.footer-content{
+    margin: 10px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+#water-mark{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    color: rgb(131, 126, 126);
+}
+
+footer{
+    color: rgb(95, 94, 94);
+    background-color:rgb(241, 241, 250);
+}
+#country{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#country-name{
+    margin-left: 30px;
+    font-size: 0.9rem;
+
+}
+#footer-footer{
+    border-top: 1px solid rgb(199, 195, 195);
+    display: flex;
+    flex-direction: row;
+    
+}
+#footer-left{
+    margin-left: 20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 0;
+}
+#footer-right{
+    margin-right: 20px;
+    width: 100%;
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+ 
+    
+    
+}
+#footer-left div:hover{
+    border-bottom: 1px solid rgb(95, 95, 97); 
+}
+#footer-right div:hover{
+    border-bottom: 1px solid rgb(95, 95, 97);
+}
+
+
