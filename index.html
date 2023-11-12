@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google</title>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,19 +12,27 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
     <header>
-        <div  class="header-content">Gmail</div>
-        <div class="header-content">Images</div>
+        <div id="start_child">
+            <div class="directions">Gmail</div>
+            <div class="directions">Images</div>
+        </div>
         <div class="header-content" title="Google Apps"><ion-icon name="apps"></ion-icon></div>
         <div class="header-content">Sign in</div>
     </header>
     <main>
         <form action="http://www.google.com/search">
             <div id="main-centert">
-                <div id="img-content">
-                    <img src="img/googlelogo_color_272x92dp.png" alt="">
+                <div id="img_content">
+                    <div id="colour_google">
+                        <img src="img/googlelogo_color_272x92dp.png" alt="">
+                    </div>
+                    <div id="white_google">
+                        <img src="img/light_google.png" alt="">
+                    </div>  
                 </div>
                 <div id="search_box">
                     <ion-icon name="search-sharp"></ion-icon>
@@ -37,7 +45,7 @@
                         <button class="button-class">Google Search</button>
                     </div>
                     <div>
-                        <button class="button-class">I'm Feeling Luckey</button>
+                        <button class="button-class" type="button">I'm Feeling Luckey</button>
                     </div>
                     <div id="google-offer">
                         Google offered in:
@@ -45,8 +53,7 @@
                     <div id="sinhala">
                         සිංහල
                     </div>
-                    <div
-                    id="tamil">
+                    <div id="tamil">
                         தமிழ்
                     </div>
                 </div>
